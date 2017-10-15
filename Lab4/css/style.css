@@ -1,0 +1,57 @@
+body {
+	background-color: #FFF9C9;
+}
+.text-justify {
+	margin-left:100px;
+	margin-right: 100px;
+}
+.nav-item>a:hover {
+	border-bottom: 1px solid red;
+
+}
+nav {
+	background-color: #CCD048;
+
+
+}
+a {
+	color: black;
+}
+
+.nav-link {
+	text-align: center;
+}
+.dropdown:hover > .dropdown-menu { 
+    display: block; 
+} 
+.footer {
+  height:50px;
+  color: white;
+  background: #292B2C;
+  bottom: 0;
+  text-align: center;
+  padding-top:20px;
+  font-size: 20px;
+  }
+  .portal {
+  	color:#6B6D81;
+  	text-decoration: none; 
+  }
+
+  .portal:hover
+  {
+  	color:#6B6D81;
+  	text-decoration: none; 
+  }
+  header {
+  	text-align: center;
+  	font-weight: bold;
+  	font-size: 25px;
+  	color: #5588F3;
+  }
+ b{
+ 	color: #5588F3;
+ }
+ form {
+ 	text-align: center;
+ }
