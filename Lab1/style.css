@@ -1,0 +1,51 @@
+body {
+		margin-left: 200px;
+		margin-right: 200px;
+	}
+		h1 {
+
+		text-align: center;
+		font-size: 266.7%;	
+		}
+        p
+        {
+        	font-size: large;
+        	text-align: justify;
+        	line-height: 1.5em;
+        }
+        header {
+
+        	font-size: 30px;
+        	font-weight:bold; 
+
+        }
+        .right {
+        	float: right;
+        	margin: 0 0 10px 10px;
+        }
+        .left{
+        	float: left;
+        	margin: 10px 10px 0 0;
+        }
+
+        a {
+        	color: #BC8F9D;
+        }
+        h4
+        {
+           background: black;
+           color: white;
+           padding: 10px;
+        }
+        div {
+                border: 1px solid black;
+                border-top: none;
+                padding: 0px;
+        }
+        div.p {
+                margin-left: 200px;
+        }
+
+        footer p {
+            text-align: center;
+        }
