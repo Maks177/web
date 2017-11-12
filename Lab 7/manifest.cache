@@ -1,0 +1,15 @@
+CACHE MANIFEST 
+#DATE 2017-10-29
+CACHE:
+contacts.html
+index.html
+news.html
+css/style.css
+css/bootstrap.min.css
+image/images.jpg
+image/img6379t.jpg
+image/lpgp-2017-1.jpg
+image/v04.jpg
+FALLBACK:
+/error.html
+/reviews.html/error.html
