@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Reviews</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	 <link rel="stylesheet" href="css/bootstrap.min.css">
+	 <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<nav class="navbar navbar-toggleable-md  navbar-inverse bg-inverse">
+  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <a class="navbar-brand disabled" href="#">
+    <img src="image/logo1.png" width="40" height="40" alt="">
+  </a>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">Головна<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="news.html">Новини</a>
+      </li>
+      <li class="nav-item dropdown">
+    <a href="#" data-toggle="dropdown" class="nav-link">Студентам</a>
+    <ul class="dropdown-menu navbar-inverse bg-inverse">
+      <li class="nav-item">
+        <a href="сurriculum.html" class="nav-link">Програма</a>
+      </li>
+        <li class="nav-item">
+        <a href="#" class="nav-link">Лабораторні</a>
+      </li>
+        <li class="nav-item">
+        <a href="#" class="nav-link">Література</a>
+      </li>
+       
+    </ul>
+  </li>
+      </li>
+        <li class="nav-item active">
+        <a class="nav-link" href="#">Відгуки</a>
+      </li>
+        <li class="nav-item">
+        <a class="nav-link" href="contacts.html">Контакти</a>
+      </li>
+        <li class="nav-item">
+        <a class="nav-link" href="admin.html">Admin</a>
+      </li>
+    </ul>
+<form class="form-inline my-2 my-lg-0">
+    <a href="http://www.lnu.edu.ua/" class="portal" target="_blank">Портал університету</a>
+      <a href="https://www.facebook.com/law.lvivuniversity" target="_blank">
+          <img src="image/facebook-512.png" width="30" height="30" alt="Facebook" >
+      </a>
+      <a href="https://twitter.com/LVIV_UNIVERSITY" target="_blank">
+          <img src="image/Твітер-1.png" width="30" height="30" alt="Twitter" >
+      </a>
+    </form>    
+  </div>
+</nav>
+<div class="container">
+    <h1 class="header text-center">Відгуки</h1>
+    <div class="main-text">
+        <span class="author">Користувач 1</span>
+        <span class="date">01.11.2017, 14:00</span>
+        <p>
+            <br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla luctus eget ipsum nec vulputate. Sed
+            vestibulum augue vel dictum imperdiet. Duis sed augue posuere, tempus diam vitae, efficitur ligula. Ut
+            nec neque condimentum, vehicula ligula bibendum, bibendum lacus. Maecenas consectetur hendrerit laoreet.
+            Donec massa nunc, mattis ut auctor non, lobortis a mauris. Donec commodo, ex eget gravida ornare, leo
+            eros egestas mauris, nec pulvinar ipsum turpis eu urna. Donec suscipit purus velit, sit amet vehicula
+            erat consequat ac. Donec pretium mattis justo, eu finibus dolor scelerisque non. Fusce risus ipsum,
+            lobortis in maximus ut, tincidunt sit amet lacus. Nullam efficitur lectus at mauris gravida, in
+            tristique quam faucibus. Etiam sagittis cursus lorem, eu dapibus nisi accumsan a. Sed ultricies felis ut
+            tortor blandit tempor.
+        </p>
+    </div>
+
+    <div class="main-text">
+        <span class="author">Користувач 2</span>
+        <span class="date">05.11.2017, 12:00</span>
+        <p>
+            <br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla luctus eget ipsum nec vulputate. Sed
+            vestibulum augue vel dictum imperdiet. Duis sed augue posuere, tempus diam vitae, efficitur ligula. Ut
+            nec neque condimentum, vehicula ligula bibendum, bibendum lacus. Maecenas consectetur hendrerit laoreet.
+            Donec massa nunc, mattis ut auctor non, lobortis a mauris. Donec commodo, ex eget gravida ornare, leo
+            eros egestas mauris, nec pulvinar ipsum turpis eu urna. Donec suscipit purus velit, sit amet vehicula
+            erat consequat ac. Donec pretium mattis justo, eu finibus dolor scelerisque non. Fusce risus ipsum,
+            lobortis in maximus ut, tincidunt sit amet lacus. Nullam efficitur lectus at mauris gravida, in
+            tristique quam faucibus. Etiam sagittis cursus lorem, eu dapibus nisi accumsan a. Sed ultricies felis ut
+            tortor blandit tempor.
+        </p>
+        <hr>
+    </div>
+    <br>
+
+    <div id="back">
+    </div>
+    <form class="Form" id="Form">
+        <h3 class="text-center">Новий відгук</h3>
+        <div class="form-group">
+            <div class="col-xs-12">
+                <input id="name" type="text" class="form-control" placeholder="Прізвище Ім'я">
+            </div>
+            <br>
+            <div class="col-xs-12">
+                <textarea id="Id" class="form-control" rows="7" placeholder="Новий відгук..." style="resize: none"></textarea>
+                <br>
+                <input type="button" value="Надіслати" class="btn btn-outline-primary" onclick="check();">
+            </div>
+        </div>
+    </form>
+
+</div>
+<div class="four"></div>
+<footer class="footer">© 2017 IoT NULP Матвіїв Максим </footer>
+<script src="js/review.js"></script>
+
+</body>
+</html>
